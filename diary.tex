@@ -1,0 +1,54 @@
+\documentclass[12pt,twoside]{book}
+
+%\headheight = 2cm
+%\headsep = 0.13cm
+%\footskip = 1cm
+\usepackage[latin1]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[english]{pst-calendar}
+%==========================================================================
+\usepackage{fontspec,xltxtra,xunicode, multicol} % Support Unicode fonts 
+\defaultfontfeatures{Mapping=tex-text}
+%\setmainfont{Fontin}
+%\setmonofont[Scale=MatchLowercase]{Hoefler Text}
+\newfontfamily{\Pl}[Scale=0.85]{Lohit Punjabi}
+%\newfontfamily{\Pd}[Scale=0.85]{Dukandar}
+\newfontfamily{\Ps}[Scale=0.85]{Saab}
+
+%==============================================================================
+\usepackage{fancyhdr}
+\renewcommand{\headrulewidth}{0pt}
+%\usepackage[left=2cm,right=1cm,top=1cm,bottom=1.5cm]{geometry}
+\usepackage[paperwidth=7.25in, paperheight=8.5in, left=0.5in, top=0.5in, bottom=0.5in, right=0.5in]{geometry}
+
+\usepackage{xcolor}         % Extended colors
+\usepackage{color}  
+\usepackage{graphicx}
+
+\newenvironment{colbox}[3]{        % Riddle environment
+  \begin{center}                   % Centering minipage
+    \colorbox[HTML]{3399FF} {          % Set's the color of minipage
+      \begin{minipage}[b]{380px}   % Starts minipage
+   \textbf{#2}\\ \textit{#3}       % Set's title and starts italic for text
+  \end{minipage}}                  % End minipage
+}{\end{center}}                    % End Riddle environment
+
+\usepackage{eso-pic}
+\newcommand\BackgroundPic{
+\put(0,0){
+\parbox[b][\paperheight]{\paperwidth}{%
+\vfill
+\centering
+\includegraphics[width=\paperwidth,height=\paperheight,
+keepaspectratio]{bg.jpg}%
+\vfill
+}}}
+
+\begin{document}
+\AddToShipoutPicture{\BackgroundPic}
+\pagestyle{fancy}
+
+\input{month}
+
+
+\end{document}

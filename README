@@ -1,0 +1,73 @@
+***********************Diary******************************
+Diary is a project made in php and LateX.
+It was designed to make a printed diary of any year. 
+
+Features:
+1. It will generate the diary of any year.
+2. On every page there is quotation on the footer.
+3. Water mark of institute's logo on every page.
+
+Files:
+------------------diary.tex------------------
+This file is for formatting of pages like page wigth, height,
+page margins, watermak on each page, headers and footer.
+If you want different footer on different pages then no need
+to define the footer in this file. Then define it in $option.php.
+I haven't define any footer in diary.tex
+------------------months.php-----------------
+Actual program is in this file. Here each and everything 
+is defined. In this file four files are included: pun.php,
+quotation.php, $header.php and $option.php(first.php or second.php)
+------------------pun.php--------------------
+In this file there is an array named lang in which seven week
+days are defined in punjabi language. This array is called
+in months.php file.
+------------------quotation.php--------------
+This file also contains an array named quotes in which 160 
+quotes are defined for different quotations on the footer on 
+different page. You can add the quotes which you like.
+------------------h1.php($header.php)-------------------
+In this file, format of  header block is defined.
+Like in white.php: text color is white. background color is
+blue. All this is done using LaTeX.
+
+------------------first.php and second.php ----------------
+In these files differnts fomats are defined.
+In first.php, Friday, Saturday and Sunday always come together.
+For Sunday no.of lines are 4. For Sat. and Sun. it is 14.
+But for other days no. of lines are 17.
+
+In second.php is little bit different from first.php.
+In this case, no. of lines are same for every day. 
+When Saturday and Sunday encounter page gets divided in two 
+halfs. In first half there is Sat. and in other half Sunday.
+
+
+In both cases there is quotation in the footer on every page.
+And in the first header there is a logo but rest of the headers
+donot contain logo on a page. 
+*Note:- You can produce more options according to your requirents.
+And change the value of $option in Makefile.
+
+-------------------Makefile--------------------------
+In this file first change the year and option.
+Then name of pdf and clean commmnads are defined.
+Name of the pdf is also defined.(pdf is produced like:
+diary-2013first.pdf)
+
+Images:
+gne.png (logo of institute) logo in the header
+bg.jpg (for watermark of logo)
+
+
+Procedure:
+Make the following changes in Makefile
+1. Fisrt change the year(year of which you want to generate 
+diary) 
+2. Change the option(like first or second) 
+3. Change the header. (like h1 or h2)
+4. Change the color of text. (any color of your choice)
+4. To generate the pdf run the command:
+   $make pdf
+5. To delete the output:
+   $ make clean

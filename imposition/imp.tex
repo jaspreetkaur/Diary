@@ -1,0 +1,9 @@
+\documentclass[12pt,twoside]{article}
+\pdfpagewidth 283mm
+\pdfpageheight 460mm
+\usepackage[pdftex]{color,graphicx,epsfig}
+\usepackage[paperwidth=283mm,paperheight=460mm,left=0cm,top=0cm,bottom=0cm,right=0cm]{geometry}
+\usepackage[final]{pdfpages}   %for including pdf files 
+\begin{document}
+\includepdf[pages=-, signature=32,landscape]{demo.pdf}  % dash means all pages, signature is the number of pages in each package landscape=90° angle
+\end{document}

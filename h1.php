@@ -33,6 +33,7 @@ function headend()		// header without logo
  global $days;
  global $lang;
  global $textcolor;
+	fwrite($file,'\vspace{0.4cm}'."\n");
 	fwrite($file,'\noindent'.'\colorbox[HTML]{3399FF}{'."\n");
         fwrite($file,'\begin{minipage}{4.32in}'."\n");
         fwrite($file,'\color{'.$textcolor.'}'.'\large\bf{'.$days[$n].'}'.'\newline'."\n");

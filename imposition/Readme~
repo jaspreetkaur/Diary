@@ -1,0 +1,29 @@
+********************IMOPSITION*****************************
+Imposition is the arrangement of pages on the printer’s sheet.
+Procedure:
+Step1:
+If you want to blank pages at the start and end of the booklet
+then process the empty.tex file. In this file give the name 
+of input file in line no.5
+Now In the pdf file you have 4 extra pages(empty). 
+Otherwise leave this step.
+
+Step2:
+Rotate the pages at 90° angle with imposition of two pages 
+on a single page.
+For this process the file imp.tex.
+Make the changes according to your requiremets in line no.8.
+i.e.
+\includepdf[pages=-, signature=32,landscape]{inputfile.pdf}
+
+i) In the above line pages=- means all the pages in a pdf
+ii) signature is the number of pages in each package(bundle)
+iii) landscape=90° angle
+
+After this step o/p file is: two pages on one page with 90° 
+rotation. And no. of pages get reduced by half.
+
+Step3:
+Now If you want four pages on single page, do following:
+Process the imp2.tex after making floowing chnages:
+\includepdf[pages=-,signature=16,landscape]{imp.pdf} 

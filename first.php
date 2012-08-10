@@ -13,9 +13,9 @@
 				while($n<=$c)
 				{	
 					if($days[$n]=="Sunday")
-						$l=4;
+						$l=6;
 					else
-						$l=14;
+						$l=20;
 					if ($header%2!=0 )
 				 	{				
 				 	headfirst();
@@ -35,14 +35,15 @@
 				$c = $n+1;
 				while($n<=$c)
 				{
-					$l=17;
 				if ($header%2!=0 )
-				 {				
+				 {	
+					$l=24;			
 				 	headfirst();
 					$header++;
 				 }
 				 else 
 				 {
+					$l=24;
 					headend();
 				 }
 				$n++;

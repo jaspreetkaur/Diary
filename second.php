@@ -2,7 +2,7 @@
 {
 		
 		$n=0;
-		$l=17;
+		
 		for($y=1;$y<=160;$y++)
 		{	
 			fwrite($file,'\cfoot{'.$quotes[$y].'}'."\n");
@@ -13,6 +13,7 @@
 				{
 				 if($days[$n]=="Friday")
 					{
+					$l=24;
                                         headfirst();
 					$n++;
 					lines($l);
@@ -20,6 +21,7 @@
 					}
                                   else //($days[$n+1]=="Saturday" or $days[$n+2]=="Sunday")
 					{	
+						$l=24;
 						headsun();
 						$n++;
 				        	lines($l);
@@ -36,12 +38,13 @@
 				while($n<=$c)
 				{
 				 if ($header%2!=0 )
-				 {				
+				 {		
+					$l=24;		
 				 	headfirst();
 					$header++;
 				 }
 				 else 
-				 {
+				 {	$l=25;	
 					headend();
 				 }
 				 $n++;

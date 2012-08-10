@@ -6,7 +6,6 @@ $year = $argv[1];		//arguments passed at command line. Refer Makefile
 $option = $argv[2];
 $header = $argv[3];
 $textcolor = $argv[4];
-$bgcolor = $argv[4];
 $nextyear=$year+1;
 
 //setlocale(LC_ALL,$lang.'.UTF8');

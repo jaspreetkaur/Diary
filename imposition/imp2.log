@@ -1,0 +1,981 @@
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.6.16)  10 AUG 2012 18:27
+entering extended mode
+ %&-line parsing enabled.
+**imp2.tex
+(./imp2.tex
+LaTeX2e <2009/09/24>
+Babel <v3.8l> and hyphenation patterns for english, usenglishmax, dumylang, noh
+yphenation, farsi, arabic, croatian, bulgarian, ukrainian, russian, czech, slov
+ak, danish, dutch, finnish, french, basque, ngerman, german, german-x-2009-06-1
+9, ngerman-x-2009-06-19, ibycus, monogreek, greek, ancientgreek, hungarian, san
+skrit, italian, latin, latvian, lithuanian, mongolian2a, mongolian, bokmal, nyn
+orsk, romanian, irish, coptic, serbian, turkish, welsh, esperanto, uppersorbian
+, estonian, indonesian, interlingua, icelandic, kurmanji, slovenian, polish, po
+rtuguese, spanish, galician, catalan, swedish, ukenglish, pinyin, loaded.
+(/usr/share/texmf-texlive/tex/latex/base/article.cls
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/share/texmf-texlive/tex/latex/base/size12.clo
+File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/share/texmf-texlive/tex/latex/graphics/color.sty
+Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
+
+(/etc/texmf/tex/latex/config/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: pdftex.def on input line 130.
+
+(/usr/share/texmf-texlive/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2010/03/12 v0.04p Graphics/color for pdfTeX
+\Gread@gobject=\count87
+))
+(/usr/share/texmf-texlive/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf-texlive/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/usr/share/texmf-texlive/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf-texlive/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/etc/texmf/tex/latex/config/graphics.cfg
+File: graphics.cfg 2009/08/28 v1.8 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+)
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+)
+(/usr/share/texmf-texlive/tex/latex/graphics/epsfig.sty
+Package: epsfig 1999/02/16 v1.7a (e)psfig emulation (SPQR)
+\epsfxsize=\dimen105
+\epsfysize=\dimen106
+)
+(/usr/share/texmf-texlive/tex/latex/geometry/geometry.sty
+Package: geometry 2008/12/21 v4.2 Page Geometry
+
+(/usr/share/texmf-texlive/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2009/04/10 v2.0 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in pdf mode detected.
+)
+(/usr/share/texmf-texlive/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2008/11/04 v1.4 Switches for detecting VTeX and its modes (HO)
+Package ifvtex Info: VTeX not detected.
+)
+\Gm@cnth=\count88
+\Gm@cntv=\count89
+\c@Gm@tempcnt=\count90
+\Gm@bindingoffset=\dimen107
+\Gm@wd@mp=\dimen108
+\Gm@odd@mp=\dimen109
+\Gm@even@mp=\dimen110
+\Gm@dimlist=\toks15
+
+(/usr/share/texmf-texlive/tex/xelatex/xetexconfig/geometry.cfg))
+(/usr/share/texmf-texlive/tex/latex/pdfpages/pdfpages.sty
+Package: pdfpages 2009/02/07 v0.4g Insert pages of external PDF documents (AM)
+
+(/usr/share/texmf-texlive/tex/latex/base/ifthen.sty
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/share/texmf-texlive/tex/latex/tools/calc.sty
+Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count91
+\calc@Bcount=\count92
+\calc@Adimen=\dimen111
+\calc@Bdimen=\dimen112
+\calc@Askip=\skip43
+\calc@Bskip=\skip44
+LaTeX Info: Redefining \setlength on input line 76.
+LaTeX Info: Redefining \addtolength on input line 77.
+\calc@Ccount=\count93
+\calc@Cskip=\skip45
+)
+(/usr/share/texmf-texlive/tex/latex/eso-pic/eso-pic.sty
+Package: eso-pic 2006/07/14 v1.1d eso-pic (RN)
+
+(/usr/share/texmf-texlive/tex/latex/ms/everyshi.sty
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+))
+(/usr/share/texmf-texlive/tex/latex/pdfpages/pppdftex.def
+File: pppdftex.def 2009/02/07 v0.4g Pdfpages driver for pdfTeX (AM)
+)
+\AM@pagebox=\box26
+\AM@toc@title=\toks16
+\c@AM@survey=\count94
+\AM@templatesizebox=\box27
+) (./imp2.aux)
+\openout1 = `imp2.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+
+(/usr/share/texmf-texlive/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count95
+\scratchdimen=\dimen113
+\scratchbox=\box28
+\nofMPsegments=\count96
+\nofMParguments=\count97
+\everyMPshowfont=\toks17
+\MPscratchCnt=\count98
+\MPscratchDim=\dimen114
+\MPnumerator=\count99
+\everyMPtoPDFconversion=\toks18
+)
+*geometry auto-detecting driver*
+*geometry detected driver: pdftex*
+-------------------- Geometry parameters
+paper: user defined
+landscape: --
+twocolumn: --
+twoside: true
+asymmetric: --
+h-parts: 0.0pt, 1084.04999pt, 0.0pt
+v-parts: 0.0pt, 1445.4pt, 0.0pt
+hmarginratio: --
+vmarginratio: --
+lines: --
+heightrounded: --
+bindingoffset: 0.0pt
+truedimen: --
+includehead: --
+includefoot: --
+includemp: --
+driver: pdftex
+-------------------- Page layout dimensions and switches
+\paperwidth  1084.04999pt
+\paperheight 1445.4pt
+\textwidth  1084.04999pt
+\textheight 1445.4pt
+\oddsidemargin  -72.26999pt
+\evensidemargin -72.26999pt
+\topmargin  -109.26999pt
+\headheight 12.0pt
+\headsep    25.0pt
+\footskip   30.0pt
+\marginparwidth 95.0pt
+\marginparsep   10.0pt
+\columnsep  10.0pt
+\skip\footins  10.8pt plus 4.0pt minus 2.0pt
+\hoffset 0.0pt
+\voffset 0.0pt
+\mag 1000
+\@twosidetrue \@mparswitchtrue 
+(1in=72.27pt, 1cm=28.45pt)
+-----------------------
+ABD: EveryShipout initializing macros
+<imp.pdf, id=3, page=16, 805.21329pt x 1308.82678pt>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 16>
+File: imp.pdf Graphic file (type pdf)
+
+<use imp.pdf, page 16>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 16>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 16>
+<imp.pdf, id=4, page=1, 805.21329pt x 1308.82678pt>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 1>
+File: imp.pdf Graphic file (type pdf)
+
+<use imp.pdf, page 1>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 16>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 1> [1
+
+ <./imp.pdf> <./imp.pdf>] <imp.pdf, id=39, page=15, 805.21329pt x 1308.82678pt>
+File: imp.pdf Graphic file (type pdf)
+
+<use imp.pdf, page 15>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 15>
+<imp.pdf, id=40, page=2, 805.21329pt x 1308.82678pt>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 2>
+File: imp.pdf Graphic file (type pdf)
+
+<use imp.pdf, page 2>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 15>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 2> [2 <./imp.pdf> <./imp.pdf>] <imp.pdf, id=48, page=14, 80
+5.21329pt x 1308.82678pt>
+File: imp.pdf Graphic file (type pdf)
+
+<use imp.pdf, page 14>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 14>
+<imp.pdf, id=49, page=3, 805.21329pt x 1308.82678pt>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 3>
+File: imp.pdf Graphic file (type pdf)
+
+<use imp.pdf, page 3>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 14>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 3> [3 <./imp.pdf> <./imp.pdf>] <imp.pdf, id=57, page=13, 80
+5.21329pt x 1308.82678pt>
+File: imp.pdf Graphic file (type pdf)
+
+<use imp.pdf, page 13>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 13>
+<imp.pdf, id=58, page=4, 805.21329pt x 1308.82678pt>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 4>
+File: imp.pdf Graphic file (type pdf)
+
+<use imp.pdf, page 4>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 13>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 4> [4 <./imp.pdf> <./imp.pdf>] <imp.pdf, id=66, page=12, 80
+5.21329pt x 1308.82678pt>
+File: imp.pdf Graphic file (type pdf)
+
+<use imp.pdf, page 12>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 12>
+<imp.pdf, id=67, page=5, 805.21329pt x 1308.82678pt>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 5>
+File: imp.pdf Graphic file (type pdf)
+
+<use imp.pdf, page 5>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 12>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 5> [5 <./imp.pdf> <./imp.pdf>] <imp.pdf, id=75, page=11, 80
+5.21329pt x 1308.82678pt>
+File: imp.pdf Graphic file (type pdf)
+
+<use imp.pdf, page 11>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 11>
+<imp.pdf, id=76, page=6, 805.21329pt x 1308.82678pt>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 6>
+File: imp.pdf Graphic file (type pdf)
+
+<use imp.pdf, page 6>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 11>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 6> [6 <./imp.pdf> <./imp.pdf>] <imp.pdf, id=84, page=10, 80
+5.21329pt x 1308.82678pt>
+File: imp.pdf Graphic file (type pdf)
+
+<use imp.pdf, page 10>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 10>
+<imp.pdf, id=85, page=7, 805.21329pt x 1308.82678pt>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 7>
+File: imp.pdf Graphic file (type pdf)
+
+<use imp.pdf, page 7>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 10>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 7> [7 <./imp.pdf> <./imp.pdf>] <imp.pdf, id=94, page=9, 805
+.21329pt x 1308.82678pt>
+File: imp.pdf Graphic file (type pdf)
+
+<use imp.pdf, page 9>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 9>
+<imp.pdf, id=95, page=8, 805.21329pt x 1308.82678pt>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 8>
+File: imp.pdf Graphic file (type pdf)
+
+<use imp.pdf, page 8>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 9>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 8> [8 <./imp.pdf> <./imp.pdf>] <imp.pdf, id=103, page=32, 8
+05.21329pt x 1308.82678pt>
+File: imp.pdf Graphic file (type pdf)
+
+<use imp.pdf, page 32>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 32>
+<imp.pdf, id=104, page=17, 805.21329pt x 1308.82678pt>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 17>
+File: imp.pdf Graphic file (type pdf)
+
+<use imp.pdf, page 17>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 32>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 17> [9 <./imp.pdf> <./imp.pdf>] <imp.pdf, id=112, page=31, 
+805.21329pt x 1308.82678pt>
+File: imp.pdf Graphic file (type pdf)
+
+<use imp.pdf, page 31>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 31>
+<imp.pdf, id=113, page=18, 805.21329pt x 1308.82678pt>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 18>
+File: imp.pdf Graphic file (type pdf)
+
+<use imp.pdf, page 18>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 31>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 18> [10 <./imp.pdf> <./imp.pdf>] <imp.pdf, id=121, page=30,
+ 805.21329pt x 1308.82678pt>
+File: imp.pdf Graphic file (type pdf)
+
+<use imp.pdf, page 30>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 30>
+<imp.pdf, id=122, page=19, 805.21329pt x 1308.82678pt>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 19>
+File: imp.pdf Graphic file (type pdf)
+
+<use imp.pdf, page 19>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 30>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 19> [11 <./imp.pdf> <./imp.pdf>] <imp.pdf, id=130, page=29,
+ 805.21329pt x 1308.82678pt>
+File: imp.pdf Graphic file (type pdf)
+
+<use imp.pdf, page 29>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 29>
+<imp.pdf, id=131, page=20, 805.21329pt x 1308.82678pt>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 20>
+File: imp.pdf Graphic file (type pdf)
+
+<use imp.pdf, page 20>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 29>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 20> [12 <./imp.pdf> <./imp.pdf>] <imp.pdf, id=139, page=28,
+ 805.21329pt x 1308.82678pt>
+File: imp.pdf Graphic file (type pdf)
+
+<use imp.pdf, page 28>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 28>
+<imp.pdf, id=140, page=21, 805.21329pt x 1308.82678pt>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 21>
+File: imp.pdf Graphic file (type pdf)
+
+<use imp.pdf, page 21>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 28>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 21> [13 <./imp.pdf> <./imp.pdf>] <imp.pdf, id=149, page=27,
+ 805.21329pt x 1308.82678pt>
+File: imp.pdf Graphic file (type pdf)
+
+<use imp.pdf, page 27>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 27>
+<imp.pdf, id=150, page=22, 805.21329pt x 1308.82678pt>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 22>
+File: imp.pdf Graphic file (type pdf)
+
+<use imp.pdf, page 22>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 27>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 22> [14 <./imp.pdf> <./imp.pdf>] <imp.pdf, id=158, page=26,
+ 805.21329pt x 1308.82678pt>
+File: imp.pdf Graphic file (type pdf)
+
+<use imp.pdf, page 26>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 26>
+<imp.pdf, id=159, page=23, 805.21329pt x 1308.82678pt>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 23>
+File: imp.pdf Graphic file (type pdf)
+
+<use imp.pdf, page 23>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 26>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 23> [15 <./imp.pdf> <./imp.pdf>] <imp.pdf, id=167, page=25,
+ 805.21329pt x 1308.82678pt>
+File: imp.pdf Graphic file (type pdf)
+
+<use imp.pdf, page 25>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 25>
+<imp.pdf, id=168, page=24, 805.21329pt x 1308.82678pt>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 24>
+File: imp.pdf Graphic file (type pdf)
+
+<use imp.pdf, page 24>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 25>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 24> [16 <./imp.pdf> <./imp.pdf>] <imp.pdf, id=176, page=48,
+ 805.21329pt x 1308.82678pt>
+File: imp.pdf Graphic file (type pdf)
+
+<use imp.pdf, page 48>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 48>
+<imp.pdf, id=177, page=33, 805.21329pt x 1308.82678pt>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 33>
+File: imp.pdf Graphic file (type pdf)
+
+<use imp.pdf, page 33>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 48>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 33> [17 <./imp.pdf> <./imp.pdf>] <imp.pdf, id=185, page=47,
+ 805.21329pt x 1308.82678pt>
+File: imp.pdf Graphic file (type pdf)
+
+<use imp.pdf, page 47>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 47>
+<imp.pdf, id=186, page=34, 805.21329pt x 1308.82678pt>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 34>
+File: imp.pdf Graphic file (type pdf)
+
+<use imp.pdf, page 34>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 47>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 34> [18 <./imp.pdf> <./imp.pdf>] <imp.pdf, id=194, page=46,
+ 805.21329pt x 1308.82678pt>
+File: imp.pdf Graphic file (type pdf)
+
+<use imp.pdf, page 46>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 46>
+<imp.pdf, id=195, page=35, 805.21329pt x 1308.82678pt>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 35>
+File: imp.pdf Graphic file (type pdf)
+
+<use imp.pdf, page 35>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 46>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 35> [19 <./imp.pdf> <./imp.pdf>] <imp.pdf, id=204, page=45,
+ 805.21329pt x 1308.82678pt>
+File: imp.pdf Graphic file (type pdf)
+
+<use imp.pdf, page 45>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 45>
+<imp.pdf, id=205, page=36, 805.21329pt x 1308.82678pt>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 36>
+File: imp.pdf Graphic file (type pdf)
+
+<use imp.pdf, page 36>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 45>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 36> [20 <./imp.pdf> <./imp.pdf>] <imp.pdf, id=213, page=44,
+ 805.21329pt x 1308.82678pt>
+File: imp.pdf Graphic file (type pdf)
+
+<use imp.pdf, page 44>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 44>
+<imp.pdf, id=214, page=37, 805.21329pt x 1308.82678pt>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 37>
+File: imp.pdf Graphic file (type pdf)
+
+<use imp.pdf, page 37>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 44>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 37> [21 <./imp.pdf> <./imp.pdf>] <imp.pdf, id=222, page=43,
+ 805.21329pt x 1308.82678pt>
+File: imp.pdf Graphic file (type pdf)
+
+<use imp.pdf, page 43>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 43>
+<imp.pdf, id=223, page=38, 805.21329pt x 1308.82678pt>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 38>
+File: imp.pdf Graphic file (type pdf)
+
+<use imp.pdf, page 38>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 43>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 38> [22 <./imp.pdf> <./imp.pdf>] <imp.pdf, id=231, page=42,
+ 805.21329pt x 1308.82678pt>
+File: imp.pdf Graphic file (type pdf)
+
+<use imp.pdf, page 42>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 42>
+<imp.pdf, id=232, page=39, 805.21329pt x 1308.82678pt>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 39>
+File: imp.pdf Graphic file (type pdf)
+
+<use imp.pdf, page 39>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 42>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 39> [23 <./imp.pdf> <./imp.pdf>] <imp.pdf, id=240, page=41,
+ 805.21329pt x 1308.82678pt>
+File: imp.pdf Graphic file (type pdf)
+
+<use imp.pdf, page 41>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 41>
+<imp.pdf, id=241, page=40, 805.21329pt x 1308.82678pt>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 40>
+File: imp.pdf Graphic file (type pdf)
+
+<use imp.pdf, page 40>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 41>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 40> [24 <./imp.pdf> <./imp.pdf>] <imp.pdf, id=249, page=64,
+ 805.21329pt x 1308.82678pt>
+File: imp.pdf Graphic file (type pdf)
+
+<use imp.pdf, page 64>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 64>
+<imp.pdf, id=250, page=49, 805.21329pt x 1308.82678pt>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 49>
+File: imp.pdf Graphic file (type pdf)
+
+<use imp.pdf, page 49>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 64>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 49> [25 <./imp.pdf> <./imp.pdf>] <imp.pdf, id=259, page=63,
+ 805.21329pt x 1308.82678pt>
+File: imp.pdf Graphic file (type pdf)
+
+<use imp.pdf, page 63>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 63>
+<imp.pdf, id=260, page=50, 805.21329pt x 1308.82678pt>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 50>
+File: imp.pdf Graphic file (type pdf)
+
+<use imp.pdf, page 50>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 63>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 50> [26 <./imp.pdf> <./imp.pdf>] <imp.pdf, id=268, page=62,
+ 805.21329pt x 1308.82678pt>
+File: imp.pdf Graphic file (type pdf)
+
+<use imp.pdf, page 62>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 62>
+<imp.pdf, id=269, page=51, 805.21329pt x 1308.82678pt>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 51>
+File: imp.pdf Graphic file (type pdf)
+
+<use imp.pdf, page 51>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 62>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 51> [27 <./imp.pdf> <./imp.pdf>] <imp.pdf, id=277, page=61,
+ 805.21329pt x 1308.82678pt>
+File: imp.pdf Graphic file (type pdf)
+
+<use imp.pdf, page 61>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 61>
+<imp.pdf, id=278, page=52, 805.21329pt x 1308.82678pt>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 52>
+File: imp.pdf Graphic file (type pdf)
+
+<use imp.pdf, page 52>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 61>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 52> [28 <./imp.pdf> <./imp.pdf>] <imp.pdf, id=286, page=60,
+ 805.21329pt x 1308.82678pt>
+File: imp.pdf Graphic file (type pdf)
+
+<use imp.pdf, page 60>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 60>
+<imp.pdf, id=287, page=53, 805.21329pt x 1308.82678pt>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 53>
+File: imp.pdf Graphic file (type pdf)
+
+<use imp.pdf, page 53>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 60>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 53> [29 <./imp.pdf> <./imp.pdf>] <imp.pdf, id=295, page=59,
+ 805.21329pt x 1308.82678pt>
+File: imp.pdf Graphic file (type pdf)
+
+<use imp.pdf, page 59>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 59>
+<imp.pdf, id=296, page=54, 805.21329pt x 1308.82678pt>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 54>
+File: imp.pdf Graphic file (type pdf)
+
+<use imp.pdf, page 54>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 59>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 54> [30 <./imp.pdf> <./imp.pdf>] <imp.pdf, id=304, page=58,
+ 805.21329pt x 1308.82678pt>
+File: imp.pdf Graphic file (type pdf)
+
+<use imp.pdf, page 58>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 58>
+<imp.pdf, id=305, page=55, 805.21329pt x 1308.82678pt>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 55>
+File: imp.pdf Graphic file (type pdf)
+
+<use imp.pdf, page 55>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 58>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 55> [31 <./imp.pdf> <./imp.pdf>] <imp.pdf, id=314, page=57,
+ 805.21329pt x 1308.82678pt>
+File: imp.pdf Graphic file (type pdf)
+
+<use imp.pdf, page 57>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 57>
+<imp.pdf, id=315, page=56, 805.21329pt x 1308.82678pt>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 56>
+File: imp.pdf Graphic file (type pdf)
+
+<use imp.pdf, page 56>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 57>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 56> [32 <./imp.pdf> <./imp.pdf>] <imp.pdf, id=323, page=80,
+ 805.21329pt x 1308.82678pt>
+File: imp.pdf Graphic file (type pdf)
+
+<use imp.pdf, page 80>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 80>
+<imp.pdf, id=324, page=65, 805.21329pt x 1308.82678pt>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 65>
+File: imp.pdf Graphic file (type pdf)
+
+<use imp.pdf, page 65>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 80>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 65> [33 <./imp.pdf> <./imp.pdf>] <imp.pdf, id=332, page=79,
+ 805.21329pt x 1308.82678pt>
+File: imp.pdf Graphic file (type pdf)
+
+<use imp.pdf, page 79>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 79>
+<imp.pdf, id=333, page=66, 805.21329pt x 1308.82678pt>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 66>
+File: imp.pdf Graphic file (type pdf)
+
+<use imp.pdf, page 66>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 79>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 66> [34 <./imp.pdf> <./imp.pdf>] <imp.pdf, id=341, page=78,
+ 805.21329pt x 1308.82678pt>
+File: imp.pdf Graphic file (type pdf)
+
+<use imp.pdf, page 78>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 78>
+<imp.pdf, id=342, page=67, 805.21329pt x 1308.82678pt>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 67>
+File: imp.pdf Graphic file (type pdf)
+
+<use imp.pdf, page 67>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 78>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 67> [35 <./imp.pdf> <./imp.pdf>] <imp.pdf, id=350, page=77,
+ 805.21329pt x 1308.82678pt>
+File: imp.pdf Graphic file (type pdf)
+
+<use imp.pdf, page 77>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 77>
+<imp.pdf, id=351, page=68, 805.21329pt x 1308.82678pt>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 68>
+File: imp.pdf Graphic file (type pdf)
+
+<use imp.pdf, page 68>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 77>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 68> [36 <./imp.pdf> <./imp.pdf>] <imp.pdf, id=359, page=76,
+ 805.21329pt x 1308.82678pt>
+File: imp.pdf Graphic file (type pdf)
+
+<use imp.pdf, page 76>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 76>
+<imp.pdf, id=360, page=69, 805.21329pt x 1308.82678pt>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 69>
+File: imp.pdf Graphic file (type pdf)
+
+<use imp.pdf, page 69>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 76>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 69> [37 <./imp.pdf> <./imp.pdf>] <imp.pdf, id=369, page=75,
+ 805.21329pt x 1308.82678pt>
+File: imp.pdf Graphic file (type pdf)
+
+<use imp.pdf, page 75>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 75>
+<imp.pdf, id=370, page=70, 805.21329pt x 1308.82678pt>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 70>
+File: imp.pdf Graphic file (type pdf)
+
+<use imp.pdf, page 70>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 75>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 70> [38 <./imp.pdf> <./imp.pdf>] <imp.pdf, id=378, page=74,
+ 805.21329pt x 1308.82678pt>
+File: imp.pdf Graphic file (type pdf)
+
+<use imp.pdf, page 74>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 74>
+<imp.pdf, id=379, page=71, 805.21329pt x 1308.82678pt>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 71>
+File: imp.pdf Graphic file (type pdf)
+
+<use imp.pdf, page 71>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 74>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 71> [39 <./imp.pdf> <./imp.pdf>] <imp.pdf, id=387, page=73,
+ 805.21329pt x 1308.82678pt>
+File: imp.pdf Graphic file (type pdf)
+
+<use imp.pdf, page 73>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 73>
+<imp.pdf, id=388, page=72, 805.21329pt x 1308.82678pt>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 72>
+File: imp.pdf Graphic file (type pdf)
+
+<use imp.pdf, page 72>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 73>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 72> [40 <./imp.pdf> <./imp.pdf>] <imp.pdf, id=396, page=96,
+ 805.21329pt x 1308.82678pt>
+File: imp.pdf Graphic file (type pdf)
+
+<use imp.pdf, page 96>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 96>
+<imp.pdf, id=397, page=81, 805.21329pt x 1308.82678pt>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 81>
+File: imp.pdf Graphic file (type pdf)
+
+<use imp.pdf, page 81>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 96>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 81> [41 <./imp.pdf> <./imp.pdf>] <imp.pdf, id=402, page=95,
+ 805.21329pt x 1308.82678pt>
+File: imp.pdf Graphic file (type pdf)
+
+<use imp.pdf, page 95>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 95>
+<imp.pdf, id=403, page=82, 805.21329pt x 1308.82678pt>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 82>
+File: imp.pdf Graphic file (type pdf)
+
+<use imp.pdf, page 82>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 95>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 82> [42 <./imp.pdf> <./imp.pdf>] <imp.pdf, id=408, page=94,
+ 805.21329pt x 1308.82678pt>
+File: imp.pdf Graphic file (type pdf)
+
+<use imp.pdf, page 94>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 94>
+<imp.pdf, id=409, page=83, 805.21329pt x 1308.82678pt>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 83>
+File: imp.pdf Graphic file (type pdf)
+
+<use imp.pdf, page 83>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 94>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 83> [43 <./imp.pdf> <./imp.pdf>] <imp.pdf, id=414, page=93,
+ 805.21329pt x 1308.82678pt>
+File: imp.pdf Graphic file (type pdf)
+
+<use imp.pdf, page 93>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 93>
+<imp.pdf, id=415, page=84, 805.21329pt x 1308.82678pt>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 84>
+File: imp.pdf Graphic file (type pdf)
+
+<use imp.pdf, page 84>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 93>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 84> [44 <./imp.pdf> <./imp.pdf>] <imp.pdf, id=419, page=92,
+ 805.21329pt x 1308.82678pt>
+File: imp.pdf Graphic file (type pdf)
+
+<use imp.pdf, page 92>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 92>
+<imp.pdf, id=420, page=85, 805.21329pt x 1308.82678pt>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 85>
+File: imp.pdf Graphic file (type pdf)
+
+<use imp.pdf, page 85>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 92>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 85> [45 <./imp.pdf> <./imp.pdf>] <imp.pdf, id=424, page=91,
+ 805.21329pt x 1308.82678pt>
+File: imp.pdf Graphic file (type pdf)
+
+<use imp.pdf, page 91>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 91>
+<imp.pdf, id=425, page=86, 805.21329pt x 1308.82678pt>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 86>
+File: imp.pdf Graphic file (type pdf)
+
+<use imp.pdf, page 86>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 91>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 86> [46 <./imp.pdf> <./imp.pdf>] <imp.pdf, id=429, page=90,
+ 805.21329pt x 1308.82678pt>
+File: imp.pdf Graphic file (type pdf)
+
+<use imp.pdf, page 90>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 90>
+<imp.pdf, id=430, page=87, 805.21329pt x 1308.82678pt>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 87>
+File: imp.pdf Graphic file (type pdf)
+
+<use imp.pdf, page 87>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 90>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 87> [47 <./imp.pdf> <./imp.pdf>] <imp.pdf, id=434, page=89,
+ 805.21329pt x 1308.82678pt>
+File: imp.pdf Graphic file (type pdf)
+
+<use imp.pdf, page 89>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 89>
+<imp.pdf, id=435, page=88, 805.21329pt x 1308.82678pt>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 88>
+File: imp.pdf Graphic file (type pdf)
+
+<use imp.pdf, page 88>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 89>
+File: imp.pdf Graphic file (type pdf)
+ <use imp.pdf, page 88> [48 <./imp.pdf> <./imp.pdf>] (./imp2.aux) ) 
+Here is how much of TeX's memory you used:
+ 2330 strings out of 493848
+ 33095 string characters out of 1152823
+ 85174 words of memory out of 3000000
+ 5619 multiletter control sequences out of 15000+50000
+ 3938 words of font info for 15 fonts, out of 3000000 for 9000
+ 714 hyphenation exceptions out of 8191
+ 34i,18n,40p,274b,426s stack positions out of 5000i,500n,10000p,200000b,50000s
+
+Output written on imp2.pdf (48 pages, 569230 bytes).
+PDF statistics:
+ 443 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 491 words of extra memory for PDF output out of 10000 (max. 10000000)
+

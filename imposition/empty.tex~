@@ -1,0 +1,6 @@
+\documentclass[a4paper]{article}
+\usepackage[pdftex]{color,graphicx,epsfig}
+\usepackage[final]{pdfpages}	% for including pdf file
+\begin{document}
+\includepdf[pages={{},{},-,{},{}}]{complete path to your pdf file} % two empty pages at the start and end of the pdf
+\end{document}

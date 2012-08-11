@@ -1,9 +1,9 @@
-\documentclass{article}
-\pdfpagewidth 15in
-\pdfpageheight 20in
-\usepackage[pdftex]{color,graphicx,epsfig}
-\usepackage[paperwidth=15in,paperheight=20in,left=0.25in,top=0.25in,bottom=0.25in,right=0.25in]{geometry}    
-\usepackage[final]{pdfpages}
+\documentclass[12pt,twoside]{article}
+\pdfpagewidth 7.25in
+\pdfpageheight 15in
+\usepackage[pdftex]{color,graphicx,epsfig} 
+\usepackage[paperwidth=15in,paperheight=20in,left=0in,top=0in,bottom=0in,right=0in]{geometry}    
+\usepackage[final]{pdfpages}	% to include pdf
 \begin{document}
-\includepdf[pages=-,signature=16,landscape]{imp.pdf}
+\includepdf[pages=-,signature=16,landscape]{imp.pdf} % dash means all pages, signature is the number of pages in each package landscape=90° angle
 \end{document}

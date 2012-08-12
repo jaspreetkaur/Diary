@@ -5,8 +5,8 @@ textcolor=white
 
 pdf:
 	./months.php ${year} ${option} ${header} ${textcolor} 
-	cp diary.tex diary-${year}${option}.tex
-	xelatex -interaction=batchmode diary-${year}${option}.tex
+	cp diary.tex diary-${year}${header}${option}.tex
+	xelatex -interaction=batchmode diary-${year}${header}${option}.tex
 
 clean:
 	rm -rf month.tex diary-*

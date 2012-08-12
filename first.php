@@ -15,7 +15,7 @@
 					if($days[$n]=="Sunday")
 						$l=6;
 					else
-						$l=20;
+						$l=19;
 					if ($header%2!=0 )
 				 	{				
 				 	headfirst();
@@ -37,13 +37,13 @@
 				{
 				if ($header%2!=0 )
 				 {	
-					$l=24;			
+					$l=23;			
 				 	headfirst();
 					$header++;
 				 }
 				 else 
 				 {
-					$l=24;
+					$l=23;
 					headend();
 				 }
 				$n++;

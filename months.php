@@ -39,7 +39,10 @@ while($year<=$nextyear)
         $date=date('d',$thisday);			//'d' writes date in a format like 01
         $punjabi=strftime('%u',$thisday);		//'%u' gives value of from 1 to 7 for Monday to Sunday
                        
-        $dates[] = $date." ".$month_h." ".$year;	//Array which get the date in the format: 01 January 2013
+        //$dates[] = $date." ".$month_h." ".$year;	//Array which get the date in the format: 01 January 2013
+	$dates[] = $date;
+	$months[] = $month_h;
+	$yr[] = $year;
         $days[] = $n_day;				//Array which get the name of Day: Monday
         $punj[] = $punjabi;				//Array with name of Day in Punjabi lang.
 

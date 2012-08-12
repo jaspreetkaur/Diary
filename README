@@ -26,10 +26,10 @@ in months.php file.
 This file also contains an array named quotes in which 160 
 quotes are defined for different quotations on the footer on 
 different page. You can add the quotes which you like.
-------------------h1.php($header.php)-------------------
-In this file, format of  header block is defined.
-Like in white.php: text color is white. background color is
-blue. All this is done using LaTeX.
+------------------h1.php and h2.php($header.php)-------------------
+In thses files, format of  header block is defined.
+you can see the difference in the images with this package. 
+All this is done using LaTeX.
 
 ------------------first.php and second.php ----------------
 In these files differnts fomats are defined.
@@ -50,10 +50,10 @@ donot contain logo on a page.
 And change the value of $option in Makefile.
 
 -------------------Makefile--------------------------
-In this file first change the year and option.
+In this file first change the year, option, header and textcolor.
 Then name of pdf and clean commmnads are defined.
 Name of the pdf is also defined.(pdf is produced like:
-diary-2013first.pdf)
+diary-2013h1first.pdf)
 
 Images:
 gne.png (logo of institute) logo in the header
@@ -71,3 +71,11 @@ diary)
    $make pdf
 5. To delete the output:
    $ make clean
+
+--------------------Output---------------------------------
+This software will produce four samples.
+Screenshots of all the samples are given in this package.
+h1_first.png
+h1_second.png
+h2_first.png
+h3_second.png

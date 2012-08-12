@@ -13,7 +13,7 @@
 				{
 				 if($days[$n]=="Friday")
 					{
-					$l=24;
+					$l=23;
                                         headfirst();
 					$n++;
 					lines($l);
@@ -21,7 +21,7 @@
 					}
                                   else //($days[$n+1]=="Saturday" or $days[$n+2]=="Sunday")
 					{	
-						$l=24;
+						$l=23;
 						headsun();
 						$n++;
 				        	lines($l);
@@ -39,12 +39,12 @@
 				{
 				 if ($header%2!=0 )
 				 {		
-					$l=24;		
+					$l=23;		
 				 	headfirst();
 					$header++;
 				 }
 				 else 
-				 {	$l=25;	
+				 {	$l=23;	
 					headend();
 				 }
 				 $n++;
